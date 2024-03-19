@@ -3,7 +3,7 @@
 class Student:
         def __init__(self):
                 print(self)
-                print("A student object is crated")
+                print("A student object is crateds")
 
 #--------------------------------------------------------------
 # variable = class_name()
