@@ -16,6 +16,7 @@ class Test3:
                 x = 0
                 self.y = self.y + mg2[0]
                 x = x + 33 + mg1
+                self.sum = self.sum + x + self.y
                 mg2[0] = self.y + mg1
                 mg1 = mg1 + x + 2
                 print(x, self.y, self.sum)
