@@ -21,7 +21,7 @@ a1.details()
 class Student:
     def __init__(self, name, Id):
         self.name = name # instance variable
-        self.__id = Id     # instance variable
+        self.__id = Id     # Private instance variable
 
     def details(self):  # instance method
         print("Name:", self.name, "ID:", self.__id)
