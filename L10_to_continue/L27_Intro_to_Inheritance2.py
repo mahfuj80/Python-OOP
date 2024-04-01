@@ -106,3 +106,22 @@ ch1.method2()
 
 #----------------------------------------------------------------
 
+# super(): With inheritance, the super() method/Function in python actually comes in quite handy. It allows us to call a method of the parent class.
+
+class ParentClass:
+    def feature1(self):
+        print("This feature1 is in ParentClass")
+    
+    def feature2(self):
+        print("This feature2 is in ParentClass")
+
+class ChildClass(ParentClass):
+
+    def feature3(self):
+        super().feature1()
+        print("Feature3 is from child class")
+        super().feature2()
+
+obj = ChildClass()
+obj.feature3()
+
