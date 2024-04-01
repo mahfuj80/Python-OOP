@@ -19,3 +19,12 @@ d1 = Dog("Rover")
 d1.bark()
 d1.eat()
 a1.eat()
+
+# isinstance(Object, ClassName)
+print(isinstance(a1, Animal))
+print(isinstance(a1, Dog))
+print(isinstance(d1, Animal))
+print(isinstance(d1, Dog))
+
+print(issubclass(Dog, Animal))
+print(issubclass(Animal, Dog))
